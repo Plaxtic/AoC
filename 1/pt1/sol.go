@@ -15,8 +15,14 @@ const (
 
 func main() {
 
+	// allow alternative file selection
+	path := inputFile
+	if len(os.Args) < 2 {
+		path = os.Args[1]
+	}
+
 	// open and scan
-	fd, err := os.Open(inputFile)
+	fd, err := os.Open(path)
 	HandleErr(err)
 	scanner := bufio.NewScanner(fd)
 

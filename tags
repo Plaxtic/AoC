@@ -1,0 +1,146 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/funk/Plaxtic/AoC/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+Angle	2/pt2/sol.go	/^	Angle  int$/;"	m	struct:main.Submarine	typeref:typename:int
+AoC	README.md	/^# AoC$/;"	c
+BingoNumber	4/pt1/sol.go	/^type BingoNumber struct {$/;"	s	package:main
+BingoNumber	4/pt2/sol.go	/^type BingoNumber struct {$/;"	s	package:main
+Board	4/pt1/sol.go	/^type Board struct{ Numbers [][]BingoNumber }$/;"	s	package:main
+Board	4/pt2/sol.go	/^type Board struct {$/;"	s	package:main
+Day	6/pt1/sol.go	/^	Day        uint$/;"	m	struct:main.Lanterns	typeref:typename:uint
+Day	6/pt2/sol.go	/^	Day        uint$/;"	m	struct:main.Lanterns	typeref:typename:uint
+Depth	2/pt1/sol.go	/^	Depth  int$/;"	m	struct:main.Position	typeref:typename:int
+Depth	2/pt2/sol.go	/^	Depth  int$/;"	m	struct:main.Submarine	typeref:typename:int
+Game	4/pt2/sol.go	/^type Game struct {$/;"	s	package:main
+Grid	5/sol.go	/^type Grid struct {$/;"	s	package:main
+HandleErr	1/pt1/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	1/pt2/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	2/pt1/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	2/pt2/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	3/pt1/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	3/pt2/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	4/pt1/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	4/pt2/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	5/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	6/pt1/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	6/pt2/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	7/pt1/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	7/pt2/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HozPoz	2/pt1/sol.go	/^	HozPoz int$/;"	m	struct:main.Position	typeref:typename:int
+HozPoz	2/pt2/sol.go	/^	HozPoz int$/;"	m	struct:main.Submarine	typeref:typename:int
+Inputs	4/pt2/sol.go	/^	Inputs  []int$/;"	m	struct:main.Game	typeref:typename:[]int
+Lanterns	6/pt1/sol.go	/^type Lanterns struct {$/;"	s	package:main
+Lanterns	6/pt2/sol.go	/^type Lanterns struct {$/;"	s	package:main
+MaxX	5/sol.go	/^	MaxX, MaxY int$/;"	m	struct:main.Grid	typeref:typename:int
+MaxY	5/sol.go	/^	MaxX, MaxY int$/;"	m	struct:main.Grid	typeref:typename:int
+Numbers	4/pt1/sol.go	/^type Board struct{ Numbers [][]BingoNumber }$/;"	m	struct:main.Board	typeref:typename:[][]BingoNumber
+Numbers	4/pt2/sol.go	/^	Numbers [][]BingoNumber$/;"	m	struct:main.Board	typeref:typename:[][]BingoNumber
+Players	4/pt2/sol.go	/^	Players []*Board$/;"	m	struct:main.Game	typeref:typename:[]*Board
+Points	5/sol.go	/^	Points     [probMaxSiz][probMaxSiz]int$/;"	m	struct:main.Grid	typeref:typename:[probMaxSiz][probMaxSiz]int
+Population	6/pt1/sol.go	/^	Population []uint$/;"	m	struct:main.Lanterns	typeref:typename:[]uint
+Population	6/pt2/sol.go	/^	Population map[int]int$/;"	m	struct:main.Lanterns	typeref:typename:map[int]int
+Position	2/pt1/sol.go	/^type Position struct {$/;"	s	package:main
+Strike	4/pt1/sol.go	/^	Strike bool$/;"	m	struct:main.BingoNumber	typeref:typename:bool
+Strike	4/pt2/sol.go	/^	Strike bool$/;"	m	struct:main.BingoNumber	typeref:typename:bool
+Submarine	2/pt2/sol.go	/^type Submarine struct {$/;"	s	package:main
+Value	4/pt1/sol.go	/^	Value  int$/;"	m	struct:main.BingoNumber	typeref:typename:int
+Value	4/pt2/sol.go	/^	Value  int$/;"	m	struct:main.BingoNumber	typeref:typename:int
+Vector	5/sol.go	/^type Vector struct {$/;"	s	package:main
+Win	4/pt2/sol.go	/^	Win     bool$/;"	m	struct:main.Board	typeref:typename:bool
+X1	5/sol.go	/^	X1, Y1 int$/;"	m	struct:main.Vector	typeref:typename:int
+X2	5/sol.go	/^	X2, Y2 int$/;"	m	struct:main.Vector	typeref:typename:int
+Y1	5/sol.go	/^	X1, Y1 int$/;"	m	struct:main.Vector	typeref:typename:int
+Y2	5/sol.go	/^	X2, Y2 int$/;"	m	struct:main.Vector	typeref:typename:int
+addDiagonalVecL	5/sol.go	/^func (g *Grid) addDiagonalVecL(vec Vector) {$/;"	f	struct:main.Grid
+addDiagonalVecR	5/sol.go	/^func (g *Grid) addDiagonalVecR(vec Vector) {$/;"	f	struct:main.Grid
+addHozVec	5/sol.go	/^func (g *Grid) addHozVec(vec Vector) {$/;"	f	struct:main.Grid
+addVertVec	5/sol.go	/^func (g *Grid) addVertVec(vec Vector) {$/;"	f	struct:main.Grid
+ageRange	6/pt2/sol.go	/^	ageRange = 9$/;"	c	package:main
+bits	3/pt1/sol.go	/^	bits        = 12$/;"	c	package:main
+bits	3/pt2/sol.go	/^	bits        = 12$/;"	c	package:main
+boardSiz	4/pt1/sol.go	/^	boardSiz = 5$/;"	c	package:main
+boardSiz	4/pt2/sol.go	/^	boardSiz = 5$/;"	c	package:main
+calcFuel	7/pt2/sol.go	/^func calcFuel(amount int) (total int) { \/\/ I know there must be some formula for this$/;"	f	package:main	typeref:typename:(total int)
+checkLine	4/pt1/sol.go	/^func checkLine(line []BingoNumber) bool {$/;"	f	package:main	typeref:typename:bool
+checkLine	4/pt2/sol.go	/^func checkLine(line []BingoNumber) bool {$/;"	f	package:main	typeref:typename:bool
+copyMap	6/pt2/sol.go	/^func copyMap(dest map[int]int, source map[int]int) map[int]int {$/;"	f	package:main	typeref:typename:map[int]int
+down	2/pt1/sol.go	/^func (p *Position) down(meters int) {$/;"	f	struct:main.Position
+down	2/pt2/sol.go	/^func (p *Submarine) down(degrees int) {$/;"	f	struct:main.Submarine
+fileIter	3/pt1/sol.go	/^func fileIter(path string) *bufio.Scanner {$/;"	f	package:main	typeref:typename:*bufio.Scanner
+filterArray	3/pt2/sol.go	/^func filterArray(bitArray []string, idx int, most bool) []string {$/;"	f	package:main	typeref:typename:[]string
+forward	2/pt1/sol.go	/^func (p *Position) forward(meters int) {$/;"	f	struct:main.Position
+forward	2/pt2/sol.go	/^func (p *Submarine) forward(meters int) {$/;"	f	struct:main.Submarine
+getBoard	4/pt1/sol.go	/^func getBoard(scanner *bufio.Scanner) *Board {$/;"	f	package:main	typeref:typename:*Board
+getBoard	4/pt2/sol.go	/^func getBoard(scanner *bufio.Scanner) *Board {$/;"	f	package:main	typeref:typename:*Board
+getMaxMinXY	5/sol.go	/^func (v *Vector) getMaxMinXY() (maxX, minX, maxY, minY int) {$/;"	f	struct:main.Vector	typeref:typename:(maxX, minX, maxY, minY int)
+hasWon	4/pt1/sol.go	/^func (b *Board) hasWon() bool {$/;"	f	struct:main.Board	typeref:typename:bool
+hasWon	4/pt2/sol.go	/^func (b *Board) hasWon() bool {$/;"	f	struct:main.Board	typeref:typename:bool
+initGame	4/pt1/sol.go	/^func initGame(inputPath string) (inputs []int, players []*Board) {$/;"	f	package:main	typeref:typename:(inputs []int, players []*Board)
+inputFile	1/pt1/sol.go	/^	inputFile = "input"$/;"	c	package:main
+inputFile	1/pt2/sol.go	/^	inputFile = "input"$/;"	c	package:main
+inputFile	2/pt1/sol.go	/^	inputFile = "input"$/;"	c	package:main
+inputFile	2/pt2/sol.go	/^	inputFile = "input"$/;"	c	package:main
+inputFile	3/pt1/sol.go	/^	inputFile   = "input"$/;"	c	package:main
+inputFile	3/pt2/sol.go	/^	inputFile   = "input"$/;"	c	package:main
+loadVectors	5/sol.go	/^func loadVectors(path string) (vectors []Vector) {$/;"	f	package:main	typeref:typename:(vectors []Vector)
+main	1/pt1/sol.go	/^func main() {$/;"	f	package:main
+main	1/pt1/sol.go	/^package main$/;"	p
+main	1/pt2/sol.go	/^func main() {$/;"	f	package:main
+main	1/pt2/sol.go	/^package main$/;"	p
+main	2/pt1/sol.go	/^func main() {$/;"	f	package:main
+main	2/pt1/sol.go	/^package main$/;"	p
+main	2/pt2/sol.go	/^func main() {$/;"	f	package:main
+main	2/pt2/sol.go	/^package main$/;"	p
+main	3/pt1/sol.go	/^func main() {$/;"	f	package:main
+main	3/pt1/sol.go	/^package main$/;"	p
+main	3/pt2/sol.go	/^func main() {$/;"	f	package:main
+main	3/pt2/sol.go	/^package main$/;"	p
+main	4/pt1/sol.go	/^func main() {$/;"	f	package:main
+main	4/pt1/sol.go	/^package main$/;"	p
+main	4/pt2/sol.go	/^func main() {$/;"	f	package:main
+main	4/pt2/sol.go	/^package main$/;"	p
+main	5/sol.go	/^func main() {$/;"	f	package:main
+main	5/sol.go	/^package main$/;"	p
+main	6/pt1/sol.go	/^func main() {$/;"	f	package:main
+main	6/pt1/sol.go	/^package main$/;"	p
+main	6/pt2/sol.go	/^func main() {$/;"	f	package:main
+main	6/pt2/sol.go	/^package main$/;"	p
+main	7/pt1/sol.go	/^func main() {$/;"	f	package:main
+main	7/pt1/sol.go	/^package main$/;"	p
+main	7/pt2/sol.go	/^func main() {$/;"	f	package:main
+main	7/pt2/sol.go	/^package main$/;"	p
+newGame	4/pt2/sol.go	/^func newGame(inputPath string) (game Game) {$/;"	f	package:main	typeref:typename:(game Game)
+newGrid	5/sol.go	/^func newGrid(vecs []Vector, part int) *Grid {$/;"	f	package:main	typeref:typename:*Grid
+numIntersections	5/sol.go	/^func (g *Grid) numIntersections() (n int) {$/;"	f	struct:main.Grid	typeref:typename:(n int)
+numeralBase	3/pt1/sol.go	/^	numeralBase = 2$/;"	c	package:main
+numeralBase	3/pt2/sol.go	/^	numeralBase = 2$/;"	c	package:main
+playersRemaining	4/pt2/sol.go	/^func (g *Game) playersRemaining() []*Board {$/;"	f	struct:main.Game	typeref:typename:[]*Board
+printAll	4/pt1/sol.go	/^func printAll(boards []*Board) {$/;"	f	package:main
+printAll	4/pt2/sol.go	/^func (g *Game) printAll() {$/;"	f	struct:main.Game
+printBoard	4/pt1/sol.go	/^func (b *Board) printBoard() {$/;"	f	struct:main.Board
+printBoard	4/pt2/sol.go	/^func (b *Board) printBoard() {$/;"	f	struct:main.Board
+printGrid	5/sol.go	/^func (g *Grid) printGrid() {$/;"	f	struct:main.Grid
+printPopulation	6/pt1/sol.go	/^func (l *Lanterns) printPopulation() {$/;"	f	struct:main.Lanterns
+printVec	5/sol.go	/^func (v *Vector) printVec() {$/;"	f	struct:main.Vector
+probMaxSiz	5/sol.go	/^	probMaxSiz = 1000 \/\/ sacrifice elegance for speed$/;"	c	package:main
+stepOneDay	6/pt1/sol.go	/^func (l *Lanterns) stepOneDay() {$/;"	f	struct:main.Lanterns
+stepOneDay	6/pt2/sol.go	/^func (l *Lanterns) stepOneDay() {$/;"	f	struct:main.Lanterns
+strikeAllBoards	4/pt1/sol.go	/^func strikeAllBoards(boards []*Board, num int) *Board {$/;"	f	package:main	typeref:typename:*Board
+strikeAllBoards	4/pt2/sol.go	/^func (g *Game) strikeAllBoards(num int) {$/;"	f	struct:main.Game
+strikeBoard	4/pt1/sol.go	/^func (b *Board) strikeBoard(num int) {$/;"	f	struct:main.Board
+strikeBoard	4/pt2/sol.go	/^func (b *Board) strikeBoard(num int) {$/;"	f	struct:main.Board
+sum	1/pt2/sol.go	/^func sum(window [3]int) (total int) {$/;"	f	package:main	typeref:typename:(total int)
+totalFuelRequired	7/pt1/sol.go	/^func totalFuelRequired(crabs map[int]int, position int) (total int) {$/;"	f	package:main	typeref:typename:(total int)
+totalFuelRequired	7/pt2/sol.go	/^func totalFuelRequired(crabs map[int]int, position int) (total int) {$/;"	f	package:main	typeref:typename:(total int)
+totalPopulation	6/pt2/sol.go	/^func (l *Lanterns) totalPopulation() (total int) {$/;"	f	struct:main.Lanterns	typeref:typename:(total int)
+up	2/pt1/sol.go	/^func (p *Position) up(meters int) {$/;"	f	struct:main.Position
+up	2/pt2/sol.go	/^func (p *Submarine) up(degrees int) {$/;"	f	struct:main.Submarine
+updateMaxes	5/sol.go	/^func (g *Grid) updateMaxes(x, y int) {$/;"	f	struct:main.Grid
