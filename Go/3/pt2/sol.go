@@ -24,7 +24,7 @@ func filterArray(bitArray []string, idx int, most bool) []string {
 		}
 	}
 
-	// least if not most
+	// least if not most common
 	bit := '0'
 	if (total/float64(len(bitArray)) >= 0.5) == most {
 		bit = '1'
@@ -79,7 +79,6 @@ func main() {
 	fmt.Printf("Oxygen generator rating = %0*b = %d\n", bits, OX, OX)
 	fmt.Printf("CO2 scrubber rating     = %0*b = %d\n", bits, C02, C02)
 	fmt.Printf("power consumption = %d\n", OX*C02)
-
 }
 
 func HandleErr(err error) {

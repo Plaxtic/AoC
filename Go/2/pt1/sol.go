@@ -47,11 +47,14 @@ func main() {
 
 	// iterate file
 	for scanner.Scan() {
+
+		// read command
 		command := strings.Split(scanner.Text(), " ")
 		if len(command) != 2 {
 			log.Panicf("Bad command")
 		}
 
+		// perform command with argument
 		distance, err := strconv.Atoi(command[1])
 		HandleErr(err)
 		switch command[0] {
@@ -64,7 +67,6 @@ func main() {
 		default:
 			log.Panicf("Bad command")
 		}
-
 	}
 	fmt.Printf("Total distance: %d\n", sub.HozPoz*sub.Depth)
 }

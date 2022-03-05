@@ -35,6 +35,12 @@ func (l *Lanterns) printPopulation() {
 	fmt.Println("")
 }
 
+func HandleErr(err error) {
+	if err != nil {
+		log.Panic(err)
+	}
+}
+
 func main() {
 
 	// allow alternative file selection
@@ -73,10 +79,4 @@ func main() {
 		fmt.Printf("Day: %d\n", lanterns.Day)
 	}
 	fmt.Printf("Population size after 80 days %d\n", len(lanterns.Population))
-}
-
-func HandleErr(err error) {
-	if err != nil {
-		log.Panic(err)
-	}
 }

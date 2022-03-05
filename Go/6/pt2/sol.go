@@ -37,7 +37,7 @@ func (l *Lanterns) stepOneDay() {
 		newLanterns[i] -= l.Population[i]
 	}
 
-	// birth new lanterns with 8 days till mitosis
+	// birth new lanterns of 8 days, restore parents to 6
 	newLanterns[6] += l.Population[0]
 	newLanterns[8] += l.Population[0]
 	newLanterns[8] -= l.Population[8]

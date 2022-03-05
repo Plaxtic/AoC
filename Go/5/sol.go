@@ -79,7 +79,7 @@ func newGrid(vecs []Vector, part int) *Grid {
 			grid.addVertVec(vec)
 		} else if vec.Y1 == vec.Y2 { // horizontal vector
 			grid.addHozVec(vec)
-		} else if part == 1 {
+		} else if part == 1 { // stop if running part one
 			continue
 		} else if vec.X1-vec.X2 == vec.Y1-vec.Y2 { // left leaning diagonal
 			grid.addDiagonalVecR(vec)

@@ -9,16 +9,29 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+A	8/pt1/sol.go	/^	A,$/;"	m	struct:main.Digits	typeref:typename:rune
 Angle	2/pt2/sol.go	/^	Angle  int$/;"	m	struct:main.Submarine	typeref:typename:int
 AoC	README.md	/^# AoC$/;"	c
+B	8/pt1/sol.go	/^	B, C,$/;"	m	struct:main.Digits	typeref:typename:rune
 BingoNumber	4/pt1/sol.go	/^type BingoNumber struct {$/;"	s	package:main
 BingoNumber	4/pt2/sol.go	/^type BingoNumber struct {$/;"	s	package:main
 Board	4/pt1/sol.go	/^type Board struct{ Numbers [][]BingoNumber }$/;"	s	package:main
 Board	4/pt2/sol.go	/^type Board struct {$/;"	s	package:main
+C	8/pt1/sol.go	/^	B, C,$/;"	m	struct:main.Digits	typeref:typename:rune
+D	8/pt1/sol.go	/^	D,$/;"	m	struct:main.Digits	typeref:typename:rune
 Day	6/pt1/sol.go	/^	Day        uint$/;"	m	struct:main.Lanterns	typeref:typename:uint
 Day	6/pt2/sol.go	/^	Day        uint$/;"	m	struct:main.Lanterns	typeref:typename:uint
 Depth	2/pt1/sol.go	/^	Depth  int$/;"	m	struct:main.Position	typeref:typename:int
 Depth	2/pt2/sol.go	/^	Depth  int$/;"	m	struct:main.Submarine	typeref:typename:int
+Digits	8/pt1/sol.go	/^type Digits struct {$/;"	s	package:main
+E	8/pt1/sol.go	/^	E, F,$/;"	m	struct:main.Digits	typeref:typename:rune
+Eight	8/pt1/sol.go	/^	Eight$/;"	c	package:main
+Eight	8/pt1/sol.go	/^	Five, Six, Seven, Eight, Nine string$/;"	m	struct:main.Digits	typeref:typename:string
+F	8/pt1/sol.go	/^	E, F,$/;"	m	struct:main.Digits	typeref:typename:rune
+Five	8/pt1/sol.go	/^	Five, Six, Seven, Eight, Nine string$/;"	m	struct:main.Digits	typeref:typename:string
+Four	8/pt1/sol.go	/^	Four$/;"	c	package:main
+Four	8/pt1/sol.go	/^	Zero, One, Two, Three, Four,$/;"	m	struct:main.Digits	typeref:typename:string
+G	8/pt1/sol.go	/^	G rune$/;"	m	struct:main.Digits	typeref:typename:rune
 Game	4/pt2/sol.go	/^type Game struct {$/;"	s	package:main
 Grid	5/sol.go	/^type Grid struct {$/;"	s	package:main
 HandleErr	1/pt1/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
@@ -34,23 +47,36 @@ HandleErr	6/pt1/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
 HandleErr	6/pt2/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
 HandleErr	7/pt1/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
 HandleErr	7/pt2/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
+HandleErr	8/pt1/sol.go	/^func HandleErr(err error) {$/;"	f	package:main
 HozPoz	2/pt1/sol.go	/^	HozPoz int$/;"	m	struct:main.Position	typeref:typename:int
 HozPoz	2/pt2/sol.go	/^	HozPoz int$/;"	m	struct:main.Submarine	typeref:typename:int
 Inputs	4/pt2/sol.go	/^	Inputs  []int$/;"	m	struct:main.Game	typeref:typename:[]int
 Lanterns	6/pt1/sol.go	/^type Lanterns struct {$/;"	s	package:main
 Lanterns	6/pt2/sol.go	/^type Lanterns struct {$/;"	s	package:main
+M	8/pt1/sol.ex	/^defmodule M do$/;"	m
 MaxX	5/sol.go	/^	MaxX, MaxY int$/;"	m	struct:main.Grid	typeref:typename:int
 MaxY	5/sol.go	/^	MaxX, MaxY int$/;"	m	struct:main.Grid	typeref:typename:int
+Nine	8/pt1/sol.go	/^	Five, Six, Seven, Eight, Nine string$/;"	m	struct:main.Digits	typeref:typename:string
 Numbers	4/pt1/sol.go	/^type Board struct{ Numbers [][]BingoNumber }$/;"	m	struct:main.Board	typeref:typename:[][]BingoNumber
 Numbers	4/pt2/sol.go	/^	Numbers [][]BingoNumber$/;"	m	struct:main.Board	typeref:typename:[][]BingoNumber
+One	8/pt1/sol.go	/^	One$/;"	c	package:main
+One	8/pt1/sol.go	/^	Zero, One, Two, Three, Four,$/;"	m	struct:main.Digits	typeref:typename:string
 Players	4/pt2/sol.go	/^	Players []*Board$/;"	m	struct:main.Game	typeref:typename:[]*Board
 Points	5/sol.go	/^	Points     [probMaxSiz][probMaxSiz]int$/;"	m	struct:main.Grid	typeref:typename:[probMaxSiz][probMaxSiz]int
 Population	6/pt1/sol.go	/^	Population []uint$/;"	m	struct:main.Lanterns	typeref:typename:[]uint
 Population	6/pt2/sol.go	/^	Population map[int]int$/;"	m	struct:main.Lanterns	typeref:typename:map[int]int
 Position	2/pt1/sol.go	/^type Position struct {$/;"	s	package:main
+SegMarkers	8/pt1/sol.go	/^	SegMarkers = "abcdefg"$/;"	c	package:main
+Segments	8/pt1/sol.go	/^	Segments map[rune]rune$/;"	m	struct:main.Digits	typeref:typename:map[rune]rune
+Seven	8/pt1/sol.go	/^	Five, Six, Seven, Eight, Nine string$/;"	m	struct:main.Digits	typeref:typename:string
+Seven	8/pt1/sol.go	/^	Seven$/;"	c	package:main
+Six	8/pt1/sol.go	/^	Five, Six, Seven, Eight, Nine string$/;"	m	struct:main.Digits	typeref:typename:string
 Strike	4/pt1/sol.go	/^	Strike bool$/;"	m	struct:main.BingoNumber	typeref:typename:bool
 Strike	4/pt2/sol.go	/^	Strike bool$/;"	m	struct:main.BingoNumber	typeref:typename:bool
 Submarine	2/pt2/sol.go	/^type Submarine struct {$/;"	s	package:main
+Three	8/pt1/sol.go	/^	Zero, One, Two, Three, Four,$/;"	m	struct:main.Digits	typeref:typename:string
+Two	8/pt1/sol.go	/^	Zero, One, Two, Three, Four,$/;"	m	struct:main.Digits	typeref:typename:string
+TwoThreeFive	8/pt1/sol.go	/^	TwoThreeFive$/;"	c	package:main
 Value	4/pt1/sol.go	/^	Value  int$/;"	m	struct:main.BingoNumber	typeref:typename:int
 Value	4/pt2/sol.go	/^	Value  int$/;"	m	struct:main.BingoNumber	typeref:typename:int
 Vector	5/sol.go	/^type Vector struct {$/;"	s	package:main
@@ -59,6 +85,9 @@ X1	5/sol.go	/^	X1, Y1 int$/;"	m	struct:main.Vector	typeref:typename:int
 X2	5/sol.go	/^	X2, Y2 int$/;"	m	struct:main.Vector	typeref:typename:int
 Y1	5/sol.go	/^	X1, Y1 int$/;"	m	struct:main.Vector	typeref:typename:int
 Y2	5/sol.go	/^	X2, Y2 int$/;"	m	struct:main.Vector	typeref:typename:int
+Zero	8/pt1/sol.go	/^	Zero, One, Two, Three, Four,$/;"	m	struct:main.Digits	typeref:typename:string
+ZeroSixNine	8/pt1/sol.go	/^	ZeroSixNine$/;"	c	package:main
+_	8/pt1/sol.go	/^	_ int = iota$/;"	c	package:main	typeref:typename:int
 addDiagonalVecL	5/sol.go	/^func (g *Grid) addDiagonalVecL(vec Vector) {$/;"	f	struct:main.Grid
 addDiagonalVecR	5/sol.go	/^func (g *Grid) addDiagonalVecR(vec Vector) {$/;"	f	struct:main.Grid
 addHozVec	5/sol.go	/^func (g *Grid) addHozVec(vec Vector) {$/;"	f	struct:main.Grid
@@ -83,6 +112,12 @@ getBoard	4/pt2/sol.go	/^func getBoard(scanner *bufio.Scanner) *Board {$/;"	f	pac
 getMaxMinXY	5/sol.go	/^func (v *Vector) getMaxMinXY() (maxX, minX, maxY, minY int) {$/;"	f	struct:main.Vector	typeref:typename:(maxX, minX, maxY, minY int)
 hasWon	4/pt1/sol.go	/^func (b *Board) hasWon() bool {$/;"	f	struct:main.Board	typeref:typename:bool
 hasWon	4/pt2/sol.go	/^func (b *Board) hasWon() bool {$/;"	f	struct:main.Board	typeref:typename:bool
+inSegs	8/pt1/sol.go	/^func (d *Digits) inSegs(r rune) bool {$/;"	f	struct:main.Digits	typeref:typename:bool
+inferFromFive	8/pt1/sol.go	/^func (d *Digits) inferFromFive() error {$/;"	f	struct:main.Digits	typeref:typename:error
+inferFromFour	8/pt1/sol.go	/^func (d *Digits) inferFromFour() error {$/;"	f	struct:main.Digits	typeref:typename:error
+inferFromSix	8/pt1/sol.go	/^func (d *Digits) inferFromSix() error {$/;"	f	struct:main.Digits	typeref:typename:error
+inferFromTwo	8/pt1/sol.go	/^func (d *Digits) inferFromTwo() error {$/;"	f	struct:main.Digits	typeref:typename:error
+inferSegemtents	8/pt1/sol.go	/^func (d *Digits) inferSegemtents(signalPattern []string) {$/;"	f	struct:main.Digits
 initGame	4/pt1/sol.go	/^func initGame(inputPath string) (inputs []int, players []*Board) {$/;"	f	package:main	typeref:typename:(inputs []int, players []*Board)
 inputFile	1/pt1/sol.go	/^	inputFile = "input"$/;"	c	package:main
 inputFile	1/pt2/sol.go	/^	inputFile = "input"$/;"	c	package:main
@@ -117,6 +152,9 @@ main	7/pt1/sol.go	/^func main() {$/;"	f	package:main
 main	7/pt1/sol.go	/^package main$/;"	p
 main	7/pt2/sol.go	/^func main() {$/;"	f	package:main
 main	7/pt2/sol.go	/^package main$/;"	p
+main	8/pt1/sol.ex	/^  def main do$/;"	f	module:M	access:public
+main	8/pt1/sol.go	/^func main() {$/;"	f	package:main
+main	8/pt1/sol.go	/^package main$/;"	p
 newGame	4/pt2/sol.go	/^func newGame(inputPath string) (game Game) {$/;"	f	package:main	typeref:typename:(game Game)
 newGrid	5/sol.go	/^func newGrid(vecs []Vector, part int) *Grid {$/;"	f	package:main	typeref:typename:*Grid
 numIntersections	5/sol.go	/^func (g *Grid) numIntersections() (n int) {$/;"	f	struct:main.Grid	typeref:typename:(n int)
@@ -131,6 +169,7 @@ printGrid	5/sol.go	/^func (g *Grid) printGrid() {$/;"	f	struct:main.Grid
 printPopulation	6/pt1/sol.go	/^func (l *Lanterns) printPopulation() {$/;"	f	struct:main.Lanterns
 printVec	5/sol.go	/^func (v *Vector) printVec() {$/;"	f	struct:main.Vector
 probMaxSiz	5/sol.go	/^	probMaxSiz = 1000 \/\/ sacrifice elegance for speed$/;"	c	package:main
+remove	8/pt1/sol.go	/^func remove(slice []string, i int) []string {$/;"	f	package:main	typeref:typename:[]string
 stepOneDay	6/pt1/sol.go	/^func (l *Lanterns) stepOneDay() {$/;"	f	struct:main.Lanterns
 stepOneDay	6/pt2/sol.go	/^func (l *Lanterns) stepOneDay() {$/;"	f	struct:main.Lanterns
 strikeAllBoards	4/pt1/sol.go	/^func strikeAllBoards(boards []*Board, num int) *Board {$/;"	f	package:main	typeref:typename:*Board
