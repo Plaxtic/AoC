@@ -10,10 +10,8 @@ import (
 )
 
 func calcFuel(amount int) (total int) { // I know there must be some formula for this
-	price := 1
 	for amount > 0 {
-		total += price
-		price++
+		total += amount
 		amount--
 	}
 	return total
